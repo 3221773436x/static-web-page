@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    table {
+      width: 940px;
+      margin: 30px auto;
+      text-align: center;
+    }
+
+    table tr {
+      height: 30px;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <th>编号</th>
+      <th>科目</th>
+      <th>成绩</th>
+      <th>操作</th>
+    </tr>
+    <script>
+      let data = [
+        { subject: '语文', score: 46 },
+        { subject: '数学', score: 80 },
+        { subject: '英语', score: 100 },
+      ]
+      for (let i = 0; i < data.length; i++) {
+        document.write(`
+        <tr>
+          <td>${i + 1}</td>
+          <td>${data[i].subject}</td>
+          <td>${data[i].score}</td>
+          <td><a>删除</a></td>
+        </tr>
+        `)
+      }
+      document.write(`
+        <tr><td>暂无数据</td></tr>
+      `)
+    </script>
+
+
+  </table>
+
+</body>
+
+</html>

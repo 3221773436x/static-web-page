@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .box {
+      width: 520px;
+      margin: 30px auto;
+    }
+
+    .box img {
+      box-sizing: border-box;
+      width: 100px;
+      height: 100px;
+      border: 2px solid #418df2;
+      border-radius: 10px 0;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+
+    .box img:nth-child(5n) {
+      margin-right: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div class="box">
+    <img src="images/1.webp" alt="">
+  </div> -->
+
+  <script>
+    let num = +prompt('请输入1~20个英雄个数')
+    document.write(`<div class="box">`)
+    for (let i = 1; i <= num; i++) {
+      document.write(`<img src="images/${i}.webp" alt="">`)
+    }
+    document.write(`</div>`)
+  </script>
+
+</body>
+
+</html>

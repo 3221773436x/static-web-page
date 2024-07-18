@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 3000px;
+    background-color: #f3f5f7;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.hear {
+    height: 42px;
+    margin-top: 30px;
+    /* background-color: pink; */
+}
+.img1 {
+    float: left;
+}
+.hear ul {
+    float: left;
+    margin-left: 73px;
+}
+.hear ul li {
+    float: left;
+    padding: 0 20px;
+}
+.hear ul li a {
+    color: #050505;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    /* border-bottom: 1px solid #00a4ff; */
+    
+}
+.hear ul li a:hover {
+    border-bottom: 1px solid #00a4ff;
+}
+.hear .search {
+    float: left;
+    margin-left: 92px;
+    height: 42px;
+}
+.hear .search input {
+    float: left;
+    width: 342px;
+    height: 38px;
+    padding-left: 18px;
+    font-size: 14px;
+    color: #bfbfbf;
+    border: 1px solid #00a4ff;
+}
+.hear .btn {
+    border: none;
+}
+.hear .user {
+    float: right;
+    margin-right: 35px;
+    font-size: 14px;
+    color: #666;
+}
+.banner {
+    margin-top: 32px;
+    height: 420px;
+    background-color: #1c036c;
+    background: url(images/banner2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.banner ul {
+    float: left;
+    height: 420px;
+    width: 190px;
+    background: rgba(0, 0, 0, .3);
+}
+.banner ul li span {
+    float: right;
+    margin-right: 20px;
+}
+.banner ul a {
+    display: block;
+    height: 46px;
+    padding-left: 20px;
+    line-height: 46px;
+}
+.banner ul a:hover{
+    color: #00b4ff;
+}
+.curse {
+    float: right;
+    margin-top: 50px;
+    width: 230px;
+    background-color: #fff;
+}
+
+.curse h3 {
+    background-color: #9bceea;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.curse dd {
+    width: 194px;
+    /* line-height: 30px; */
+    border-bottom: 1px solid #efefef;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+.curse dd .p1 {
+    font-size: 15px;
+    color: #919090;
+}
+.curse dd .p2 {
+    font-size: 13px;
+    color: #c9c9c9;
+}
+.curse button {
+    width: 194px;
+    height: 38px;
+    background-color: #fff;
+    color: #00b4ff;
+    border: 1px solid #00a4ff;
+    margin: 4px 20px 12px;
+}
+.jinp {
+    margin-top: 10px;
+    height: 62px;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .2);
+    line-height: 62px;
+}
+.jinp h3 {
+    font-size: 16px;
+    float: left;
+    color: #00b4ff;
+    padding: 0 35px;
+}
+.jinp ul {
+    float: left;
+}
+.jinp ul li {
+    float: left;
+   
+}
+.jinp ul li a {
+    color: #050505;
+    padding: 0 35px;
+    border-left: 1px solid #bfbfbf;
+}
+.jinp>a {
+    float: right;
+    color: #00a4ff;
+    margin-right: 30px;
+    font-size: 14px;
+}
+.bd {
+    margin-top: 40px;
+}
+.bd-h {
+    overflow: hidden;
+}
+.bd .bd-h h3 {
+    float: left;
+    font-weight: 400;
+}
+.bd-h a {
+    float: right;
+    color: #a5a5a5;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.bd-m {
+    margin-top: 20px;
+}
+.bd-m ul {
+    width: 1225px;
+}
+.bd-m li {
+    float: left;
+    position: relative;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.bd-m .img1 {
+    width: 100%;
+}
+.bd-m h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 25px 20px 0 25px;
+}
+.bd-m p {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.bd-m p em {
+    font-style: normal;
+    color: #ff7c2d;
+}
+.img2 {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
